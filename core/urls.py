@@ -23,3 +23,4 @@ urlpatterns = [
     path('api/tasks/', include('tasks.urls')),
 
 ]
+

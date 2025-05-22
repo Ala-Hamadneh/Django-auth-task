@@ -16,3 +16,4 @@ class RegisterSerializer(serializers.ModelSerializer):
             phone=validated_data.get('phone', '')
         )
         return user
+

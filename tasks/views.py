@@ -22,3 +22,4 @@ class TaskRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
         return Tasks.objects.filter(user=self.request.user)
 
 
+
