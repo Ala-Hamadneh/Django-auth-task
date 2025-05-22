@@ -23,3 +23,4 @@ class LogoutView(APIView):
             return Response({"message": "Logout successful"}, status=200)
         except Exception as e:
             return Response({"error": str(e)}, status=400)
+

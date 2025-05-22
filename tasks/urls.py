@@ -5,3 +5,4 @@ urlpatterns = [
     path('', TaskListCreateView.as_view(), name='task-list-create'),
     path('<int:pk>/', TaskRetrieveUpdateDestroyView.as_view(), name='task-detail'),
 ]
+
